@@ -1,0 +1,11 @@
+package com.revature;
+
+public class Launcher {
+	public static void main(String[] args) {
+	//The code inside a method(inside curly braces) is called method body
+		
+		//This is a print statement
+		System.out.println("Hello World!");
+	}
+
+}

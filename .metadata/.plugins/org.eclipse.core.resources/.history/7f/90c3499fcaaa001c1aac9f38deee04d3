@@ -1,0 +1,18 @@
+package com.revature;
+
+//Importing the Peson Class, so that we can meke objects of type Person, and access it s members(variables/methods)
+import com.revature.models.Person;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Using our Constructors");
+		
+		//Instantiate a new Person object, using no-args constructor
+		Person tyler = new Person();
+		
+		System.out.println(tyler.name);
+	}
+
+}
