@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.revature.models.Person"/>
+    <fullyQualifiedTypeName name="com.revature.models.Dog"/>
+    <fullyQualifiedTypeName name="com.revature.models.Cat"/>
+    <fullyQualifiedTypeName name="com.revature.models.Snake"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
