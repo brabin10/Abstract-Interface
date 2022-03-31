@@ -3074,3 +3074,15 @@ org.eclipse.jface.text.BadLocationException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-30 22:15:00.457
 !MESSAGE executing callback sts4.classpath.dcshreGx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-30 22:32:37.362
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dcshreGx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-30 22:32:37.362
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dcshreGx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-30 22:32:37.363
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-30 22:32:37.363
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dcshreGx => OK
