@@ -5,4 +5,11 @@
     <fullyQualifiedTypeName name="com.revature.models.Cat"/>
     <fullyQualifiedTypeName name="com.revature.models.Snake"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.exception.CheckedException"/>
+    <fullyQualifiedTypeName name="com.exception.UncheckedException"/>
+    <fullyQualifiedTypeName name="com.ravature.models.Pokemon"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
