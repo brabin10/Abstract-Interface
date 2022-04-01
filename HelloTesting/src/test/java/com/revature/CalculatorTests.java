@@ -52,7 +52,7 @@ public class CalculatorTests {
 	
 	//Above are two POSITIVE tests- which is a test that takes in valid input and tests for valid output
 	
-	@Test(expected = ArithmeticException.class)
+	@Test(expected = ArithmeticException.class) // This is how we specify what Exception is expected to be thrown
 	public void testZeroDivisionThrowsException() {
 		System.out.println("Trying to Divide by zero");
 		calc.divide(i, k);
