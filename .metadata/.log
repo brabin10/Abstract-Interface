@@ -8166,3 +8166,222 @@ java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.comm
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 09:24:13.255
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:38:15.665
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QEbFnDMf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:38:15.665
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QEbFnDMf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:38:15.665
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:38:15.666
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QEbFnDMf => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:38:15.777
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:38:15.778
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:39:38.988
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:39:38.989
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:41:40.128
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:41:40.128
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:41:53.450
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:41:53.450
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:47.688
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:47.688
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4e1392db[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=562)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:47.689
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:53:47.694
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:53:47.696
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.672
+!MESSAGE Boot LS startup time from start to initialized: 983ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.710
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HCRuNPKJisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.710
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.710
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.711
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.711
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.711
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HCRuNPKJ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.711
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.711
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ P0Demo false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.711
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.711
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.711
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ Collections false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.711
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ CollectionsList false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ DynamicPolymorphism false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ Exception false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ HelloAbstract false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ HelloPrimitives false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.712
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ HelloTesting false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ HelloWorld false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ Inheritance false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ Interface false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.713
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.714
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.714
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ Polymorphism false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.714
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.714
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.714
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ RevatureWork false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.714
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.714
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.714
+!MESSAGE buffering callback sts4.classpath.HCRuNPKJ Throwable false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.714
+!MESSAGE executing callback sts4.classpath.HCRuNPKJ 14 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-01 12:53:48.885
+!MESSAGE executing callback sts4.classpath.HCRuNPKJ SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:57:25.504
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 12:57:25.504
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 13:10:29.692
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 13:10:29.693
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 13:27:36.989
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-01 13:27:36.989
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

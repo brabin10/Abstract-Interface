@@ -56,6 +56,7 @@ public class CalculatorTests {
 	public void testZeroDivisionThrowsException() {
 		System.out.println("Trying to Divide by zero");
 		calc.divide(i, k);
+		// we run the exception causing code, which WONT'S crash
 	
 	}
 
