@@ -2,7 +2,7 @@ package com.java;
 
 import java.util.Arrays;
 
-public class Exercise1 {
+public class ArrayStringSort {
 // Write a program to  sort an numeric array and a string array
 	public static void main(String[] args) {
 

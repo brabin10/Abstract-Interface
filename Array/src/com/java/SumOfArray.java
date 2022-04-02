@@ -3,7 +3,7 @@ package com.java;
 import java.util.Arrays;
 
 // Write a Java program to sum values of an array
-public class Exercise2 {
+public class SumOfArray {
 	public static void main(String[] args) {
 
 		int[] my_array = { 132, 345, 5545, 324, 435 };
