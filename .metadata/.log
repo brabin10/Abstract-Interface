@@ -11296,3 +11296,192 @@ java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.comm
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 14:23:12.945
 !MESSAGE executing callback sts4.classpath.jLxBSAtS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:41:10.481
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jLxBSAtS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:41:10.481
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.jLxBSAtS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:41:10.481
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:41:10.481
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jLxBSAtS => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:19.611
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:19.612
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@bced452[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=562)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:19.612
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.562
+!MESSAGE Boot LS startup time from start to initialized: 950ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.597
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CVEfKWerisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.597
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.597
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CVEfKWer => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE buffering callback sts4.classpath.CVEfKWer String false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE buffering callback sts4.classpath.CVEfKWer Array false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE buffering callback sts4.classpath.CVEfKWer Collections false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.598
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE buffering callback sts4.classpath.CVEfKWer CollectionsList false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE buffering callback sts4.classpath.CVEfKWer DynamicPolymorphism false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE buffering callback sts4.classpath.CVEfKWer Exception false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE buffering callback sts4.classpath.CVEfKWer HelloAbstract false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.599
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE buffering callback sts4.classpath.CVEfKWer HelloPrimitives false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE buffering callback sts4.classpath.CVEfKWer HelloTesting false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE buffering callback sts4.classpath.CVEfKWer HelloWorld false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE buffering callback sts4.classpath.CVEfKWer Inheritance false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.600
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE buffering callback sts4.classpath.CVEfKWer Interface false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE buffering callback sts4.classpath.CVEfKWer P0Demo false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE buffering callback sts4.classpath.CVEfKWer Polymorphism false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE buffering callback sts4.classpath.CVEfKWer RevatureWork false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE buffering callback sts4.classpath.CVEfKWer Throwable false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.601
+!MESSAGE executing callback sts4.classpath.CVEfKWer 16 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-02 15:42:20.762
+!MESSAGE executing callback sts4.classpath.CVEfKWer SUCCESS [done]
