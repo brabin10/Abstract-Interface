@@ -6,11 +6,13 @@ public class EvenNumbers {
 
 		int num = 100;
 		
-		//for (int i = 1; i <= num; i++) {
-			if(num % 2 == 0) {
-				System.out.print(num +" ");
+		for (int i = 1; i <= num; i++) {
+			if(i % 2 == 0) {
+				System.out.print(i +" ");
+
 			}
+
 		}
 	}
 
-//}
+}
