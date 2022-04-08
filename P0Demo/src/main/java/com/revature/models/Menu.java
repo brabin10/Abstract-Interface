@@ -1,19 +1,21 @@
 package com.revature.models;
+
 import java.util.ArrayList;
 import java.util.Scanner;
+
 import com.revature.daos.EmployeeDAO;
 import com.revature.daos.RoleDAO;
+
 //This Menu Class will have a method that displays a menu to the user that they can interact with: displayMenu()
 //Through this menu, the user can give inputs that will interact with the database
 public class Menu {
 	
 	//instantiating an EmployeeDAO object so that we can use it's methods
 	EmployeeDAO eDAO = new EmployeeDAO();
+	//instantiating a RoleDAO object so that we can use its methods
 	RoleDAO rDAO = new RoleDAO();
-	
-	
+
 	//All of the menu display options and control flow are contained within this method
-	
 	public void displayMenu() {
 		
 		boolean displayMenu = true; //we're going to use this to toggle whether the menu continues after user input
@@ -37,7 +39,7 @@ public class Menu {
 			System.out.println("1: get greeted");
 			System.out.println("2: exit the application");
 			System.out.println("3: show all employees");
-			System.out.println("4. show all rows");
+			System.out.println("4: show all roles");
 			
 			
 			//parse the user's input after they choose option, and put it in a int variable
@@ -61,9 +63,7 @@ public class Menu {
 			case 3: {
 				//call the getEmployees() method from the EmployeeDAO, put the results into a variable
 				ArrayList<Employee> employees = eDAO.getEmployees();
-
-				//print out the value of our employees variable
-				System.out.println(employees);
+				
 				//print out the values of our employees variables in a forEach
 				//I'm sure you all can find even cleaner ways to print this data out ;)
 				employees.forEach(employee -> {
@@ -72,21 +72,23 @@ public class Menu {
 					System.out.println(employee.getFirst_name());
 					System.out.println(employee.getLast_name());
 					System.out.println("----------------------");
-					//Ben won't forget to show emplyoee.getRole()
+					//Ben won't forget to show employee.getRole()
 				});
-
+				
 				break;
 			}
 			
 			case 4: {
+				
 				//get the ArrayList of roles from the roleDAO
 				ArrayList<Role> roles = rDAO.getRoles();
 				
-				//enchanced for loop to print out our role data one by one
+				//enhanced for loop to print out our role data one by one
 				for(Role role : roles) {
 					System.out.println(role);
 				}
 				
+				break;
 			}
 			
 			default: {

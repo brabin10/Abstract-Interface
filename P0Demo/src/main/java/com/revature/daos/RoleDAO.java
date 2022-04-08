@@ -39,13 +39,16 @@ public class RoleDAO {
 				//use the all-args constructor to create a new Role object from each returned record in the DB
 				Role role = new Role(
 						//we want to use rs.get() for each column in the record
-						rs.getInt("role_id"),
+								rs.getInt("role_id"),
 								rs.getString("role_title"),
-								rs.getInt("roel_salary")
+								rs.getInt("role_salary")
 							);
 				//use .add() to populate our ArrayList with each  new Role object
 								roleList.add(role);
 			}
+			//when there are no more results in the ResultSet, the while loop will break..because rs.next() == false
+			//return the populated list of roles;
+			return roleList;
 			
 		} catch (SQLException e) {
 			System.out.println("Something went wrong contacting the database");

@@ -16,7 +16,7 @@ public class Launcher {
 		//remember -the getConnection() method will return a connection object if you connect successfully
 		try(Connection conn = ConnectionUtil.getConnection()) {
 			System.out.println("CONNECTION SUCCESSFUL :");
-		} catch (SQLException e) {
+		} catch (SQLException e) { //if creating this connection fails..catch the exception and print the stack trace
 			System.out.println("connection failed...");
 			e.printStackTrace();
 		}
