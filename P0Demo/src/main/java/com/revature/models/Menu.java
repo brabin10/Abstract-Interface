@@ -2,13 +2,18 @@ package com.revature.models;
 import java.util.ArrayList;
 import java.util.Scanner;
 import com.revature.daos.EmployeeDAO;
+import com.revature.daos.RoleDAO;
 //This Menu Class will have a method that displays a menu to the user that they can interact with: displayMenu()
 //Through this menu, the user can give inputs that will interact with the database
 public class Menu {
 	
 	//instantiating an EmployeeDAO object so that we can use it's methods
 	EmployeeDAO eDAO = new EmployeeDAO();
+	RoleDAO rDAO = new RoleDAO();
+	
+	
 	//All of the menu display options and control flow are contained within this method
+	
 	public void displayMenu() {
 		
 		boolean displayMenu = true; //we're going to use this to toggle whether the menu continues after user input
@@ -32,6 +37,7 @@ public class Menu {
 			System.out.println("1: get greeted");
 			System.out.println("2: exit the application");
 			System.out.println("3: show all employees");
+			System.out.println("4. show all rows");
 			
 			
 			//parse the user's input after they choose option, and put it in a int variable
@@ -70,6 +76,17 @@ public class Menu {
 				});
 
 				break;
+			}
+			
+			case 4: {
+				//get the ArrayList of roles from the roleDAO
+				ArrayList<Role> roles = rDAO.getRoles();
+				
+				//enchanced for loop to print out our role data one by one
+				for(Role role : roles) {
+					System.out.println(role);
+				}
+				
 			}
 			
 			default: {
