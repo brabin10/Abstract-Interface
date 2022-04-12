@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 import com.revature.daos.EmployeeDAO;
 import com.revature.daos.RoleDAO;
+import com.revature.daos.UserDAO;
 
 //This Menu Class will have a method that displays a menu to the user that they can interact with: displayMenu()
 //Through this menu, the user can give inputs that will interact with the database
@@ -14,10 +15,14 @@ public class Menu {
 	EmployeeDAO eDAO = new EmployeeDAO();
 	//instantiating a RoleDAO object so that we can use its methods
 	RoleDAO rDAO = new RoleDAO();
+	//instantiating a UserDAO object so that we can use its method
+	UserDAO uDAO = new UserDAO();
+	
 
 	//All of the menu display options and control flow are contained within this method
 	public void displayMenu() {
 		
+		boolean displayLogin = true;//we're going to use this to toggle whether the user can use the application or not
 		boolean displayMenu = true; //we're going to use this to toggle whether the menu continues after user input
 		Scanner scan = new Scanner(System.in); //Scanner object to parse (read) user input
 		
@@ -25,6 +30,32 @@ public class Menu {
 		System.out.println("*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*");
 		System.out.println("WELCOME to the Krusty Krab Employee Management System");
 		System.out.println("*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*");
+		
+		System.out.println("Hello stranger... please log in to view the rest of the application.");
+		
+		
+		//display the login prompt, and not let the user access the rest of the application until they log in
+		while(displayLogin) {
+			
+			System.out.println("USERNAME:");
+			
+			String username = scan.nextLine();
+			
+			System.out.println("PASSWORD:");
+			
+			String password = scan.nextLine();
+			
+			//control flow based on whether the user provided accurate login credentials
+			if(uDAO.login(username, password)) {
+				System.out.println("Login Successful! Welcome.");
+				displayLogin = false;
+				break;
+			}
+			
+			System.out.println("LOGIN FAILED! TRY AGAIN.");
+			
+		}
+		
 		
 		//display the menu as long as the displayMenu boolean is true
 		while(displayMenu) {
@@ -40,6 +71,10 @@ public class Menu {
 			System.out.println("2: exit the application");
 			System.out.println("3: show all employees");
 			System.out.println("4: show all roles");
+			System.out.println("5: get role by ID");
+			System.out.println("6: update role salary");
+			System.out.println("7: add employee");
+			System.out.println("8: remove employee");
 			
 			
 			//parse the user's input after they choose option, and put it in a int variable
@@ -87,6 +122,80 @@ public class Menu {
 				for(Role role : roles) {
 					System.out.println(role);
 				}
+				
+				break;
+			}
+			
+			case 5: {
+				
+				System.out.println("What Role ID would you like to search?");
+				
+				int idInput = scan.nextInt(); //we get the user's input for ID
+				scan.nextLine(); //we still need nextLine() to move to the next line
+				
+				//what if the user enters a String? the program will crash
+				//it's up to you to polish your P0 and add some foolproofing to cases like this
+				
+				//creating a new Role object, using the getRoleById method in the Role DAO
+				Role role = rDAO.getRoleById(idInput);
+				
+				//simply print out our new role object
+				System.out.println(role);
+				
+				break;
+			}
+			
+			case 6: {
+				
+				System.out.println("Which role would you like to change?");
+				
+				//take in the user's input for the role they want to change
+				String titleInput = scan.nextLine();
+				
+				System.out.println("What is the new salary?");
+				
+				//take in the user's input for the new salary
+				int salaryInput = scan.nextInt();
+				scan.nextLine();
+				
+				rDAO.updateRoleSalary(titleInput, salaryInput);
+				
+				break;
+			}
+			
+			case 7: {
+				
+				//take user input for employee first_name and last_name
+				System.out.println("Enter Employee First Name");
+				String fName = scan.nextLine();
+				
+				System.out.println("Enter Employee Last Name");
+				String lName = scan.nextLine();
+				
+				//take user input for the employee's role
+				//not the prettiest design here, but otherwise the user doesn't know the different roles
+				System.out.println("Enter Employee Role");
+				System.out.println("Manager = 1 | Fry Cook = 2 | Cashier = 3 | Marketing = 4");
+				
+				int roleId = scan.nextInt();
+				//Ben is confused on why we don't need nextLine() in these cases he'll come back to this comment
+				
+				Employee emp = new Employee(fName, lName, null);
+				//why null for the role object?? We're going to use the user-inputted role_id instead
+				//this agrees better with the DB, since the User has role_id_fk, not a Role object
+				
+				eDAO.insertEmployee(emp, roleId);
+				
+				break;
+			}
+			
+			case 8: {
+				
+				System.out.println("Power trip huh? Enter the ID of the employee you want to delete");
+				
+				int idInput = scan.nextInt();
+				
+				eDAO.removeEmployee(idInput);
 				
 				break;
 			}
