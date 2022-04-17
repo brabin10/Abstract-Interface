@@ -1,4 +1,5 @@
---This SCHEMA will model krusty krab employees AND their roles
+--This schema will model Krusty Krab employees and their roles
+
 --This will be a one to many relationship, one role can be assigned to many employees, employees can only have one role.
 
 CREATE TABLE roles (
@@ -7,13 +8,15 @@ CREATE TABLE roles (
 	role_salary int
 );
 
+
 CREATE TABLE employees (
 	employee_id serial PRIMARY KEY,
 	first_name TEXT,
 	last_name TEXT,
-	role_id_fk int REFERENCES roles (role_id) --FOREIGN KEY: establishes a relationship BETWEEN the tables
-
+	role_id_fk int REFERENCES roles (role_id) --foreign key: establishes a relationship between the tables
 );
+
+--I've created my tables, now I just want to put some data in
 
 INSERT INTO roles (role_title, role_salary)
 VALUES ('Manager', 100000),
@@ -31,3 +34,7 @@ VALUES ('Eugene', 'Krabs', 1),
 	   ('Sheldon', 'Plankton', 4);
 	   
 SELECT * FROM employees;
+
+
+
+
