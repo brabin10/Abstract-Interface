@@ -38,7 +38,6 @@
     <fullyQualifiedTypeName name="com.revature.exception.MyCustomException"/>
     <fullyQualifiedTypeName name="com.revature.dao.DAO"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="com.revature.models.Menu"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.revature.dao.AccountDAO"/>
@@ -53,4 +52,5 @@
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.revature.models.Menu"/>
 </qualifiedTypeNameHistroy>
