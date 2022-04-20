@@ -6417,3 +6417,390 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://ww
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:47:52.417
 !MESSAGE executing callback sts4.classpath.GlnVjkPB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 10:55:18.275
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GlnVjkPB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 10:55:18.276
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.GlnVjkPB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 10:55:18.276
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 10:55:18.277
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GlnVjkPB => OK
+!SESSION 2022-04-20 11:01:57.259 -----------------------------------------------
+eclipse.buildId=4.14.0.202203131612
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rabin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rabin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 4 567 2022-04-20 11:01:58.376
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2022-04-20 11:01:58.376
+!MESSAGE Could not read metadata for 'bank_app'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/bank_app)[567]: java.lang.Exception: The project description file (.project) for 'bank_app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2482)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2233)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:484)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2022-04-20 11:01:58.377
+!MESSAGE The project description file (.project) for 'bank_app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'bank_app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2482)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2233)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:484)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.jface 2 0 2022-04-20 11:01:59.757
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-20 11:01:59.757
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2809e38a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b9c9bf5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-20 11:01:59.757
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b399f5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16f2d883,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:01.819
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:01.820
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@20e4a660[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=562)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:01.821
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:01.831
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.325
+!MESSAGE Boot LS startup time from start to initialized: 1501ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.406
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XsxmCRTiisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.420
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.421
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.422
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.422
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.423
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XsxmCRTi => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.425
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.425
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi Project0 false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.425
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.426
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.426
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi Array false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.426
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.426
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.426
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi Collections false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.427
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.427
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.427
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi CollectionsList false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.427
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.427
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.427
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi DynamicPolymorphism false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.429
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.429
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.429
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi Exception false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.429
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.430
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.430
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi HelloAbstract false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.430
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.430
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.430
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi HelloPrimitives false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.432
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.433
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.433
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi HelloTesting false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.433
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.433
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.433
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi HelloWorld false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.433
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.434
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.434
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi Inheritance false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.434
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.434
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.434
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi Interface false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.434
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.434
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.434
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi Logging false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.435
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.435
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.435
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi P0_Base false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.435
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.435
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.435
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi Polymorphism false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.435
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.435
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.435
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi PracticeClass false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.436
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.436
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.436
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi RevatureWork false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.436
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.436
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.436
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi String false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.436
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.436
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.436
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi Threads false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.436
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.437
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.437
+!MESSAGE buffering callback sts4.classpath.XsxmCRTi Throwable false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.437
+!MESSAGE executing callback sts4.classpath.XsxmCRTi 20 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-20 11:02:03.745
+!MESSAGE executing callback sts4.classpath.XsxmCRTi SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-04-20 11:02:12.416
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.core.resources 4 567 2022-04-20 11:02:14.009
+!MESSAGE The project description file (.project) for 'bank_app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'bank_app' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:763)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1061)
+	at org.eclipse.ui.actions.OpenResourceAction$1.doOpenWithReferences(OpenResourceAction.java:233)
+	at org.eclipse.ui.actions.OpenResourceAction$1.runInWorkspace(OpenResourceAction.java:279)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

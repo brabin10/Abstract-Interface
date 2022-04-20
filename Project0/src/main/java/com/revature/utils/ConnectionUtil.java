@@ -30,7 +30,7 @@ public class ConnectionUtil
         return DriverManager.getConnection(url, username, password);
     }
 
-    // close postgre database connection
+    // close postgreSQL database connection
     public static void close(Connection con, Statement stmt) {
         try {
             if (stmt != null) {
