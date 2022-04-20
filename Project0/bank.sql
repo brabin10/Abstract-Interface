@@ -6,6 +6,8 @@ CREATE TABLE users (
   lastname VARCHAR ( 50 ) NOT NULL
 );
 
+SELECT * FROM users;
+
 INSERT INTO users(username, PASSWORD, firstname, lastname)
 VALUES ('rab','bas','rabin','basnet');
 
@@ -17,4 +19,5 @@ CREATE TABLE transactions (
   FOREIGN KEY (username) REFERENCES users(username) ON DELETE CASCADE
 );
 
-DROP TABLE transactions  cascade;
+SELECT * FROM transactions;
+--DROP TABLE transactions  cascade;

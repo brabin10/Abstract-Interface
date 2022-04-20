@@ -113,7 +113,7 @@ public class App
                             System.out.println("New user is created.");
                         }
                         else {
-                            System.out.println("error");
+                            System.out.println("error, something is wrong");
                         }
                     }
                     else if(num == 4) {
@@ -139,7 +139,7 @@ public class App
                             System.out.println("User: " + username + " is deleted.");
                         }
                         else {
-                            System.out.println("error: no exist user.");
+                            System.out.println("error: no existing  user.");
                         }
                     }
                     else if(num == 6) {

@@ -5312,3 +5312,1108 @@ Binding(ALT+COMMAND+R,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 01:42:19.616
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KjEUHIWd => OK
+!SESSION 2022-04-19 15:24:42.411 -----------------------------------------------
+eclipse.buildId=4.14.0.202203131612
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rabin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rabin/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-04-19 15:24:44.534
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-19 15:24:44.534
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48bab2c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ad26381,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-19 15:24:44.534
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b20aa21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f5167f0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:46.374
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:46.374
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7513d18f[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=562)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:46.375
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:46.390
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-19 15:24:47.195
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-19 15:24:47.232
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.744
+!MESSAGE Boot LS startup time from start to initialized: 1365ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.787
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NWVRWMwoisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.788
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.789
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.790
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.790
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NWVRWMwo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.790
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.791
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.791
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo Project0 false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.791
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.792
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.792
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo Array false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.792
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.792
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.792
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo Collections false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.793
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.793
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.793
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo CollectionsList false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.793
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.793
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.793
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo DynamicPolymorphism false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.793
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.794
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.794
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo Exception false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.794
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.794
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.794
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo HelloAbstract false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.794
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.794
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.794
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo HelloPrimitives false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.795
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.795
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.795
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo HelloTesting false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.795
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.795
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.795
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo HelloWorld false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.795
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.796
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.796
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo Inheritance false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.796
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.796
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.796
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo Interface false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.796
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.796
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.796
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo Logging false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.796
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.797
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.797
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo P0_Base false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.797
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.797
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.797
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo Polymorphism false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.797
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.797
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.797
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo PracticeClass false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.798
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.798
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.798
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo RevatureWork false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.798
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.798
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.798
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo String false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.798
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.799
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.799
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo Threads false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.799
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.799
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.799
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo Throwable false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.799
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.799
+!MESSAGE classpath=27 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.800
+!MESSAGE buffering callback sts4.classpath.NWVRWMwo bank_app false 27
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.800
+!MESSAGE executing callback sts4.classpath.NWVRWMwo 21 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 15:24:47.995
+!MESSAGE executing callback sts4.classpath.NWVRWMwo SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-04-19 16:34:52.720
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 16:44:38.545
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 16:44:38.804
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 16:44:38.936
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-04-19 16:46:46.343
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.objectaid.com/update/current.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:670)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-04-19 16:46:46.344
+!MESSAGE No repository found at http://www.objectaid.com/update/current.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 16:47:23.883
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 16:47:24.146
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 16:47:24.277
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 16:47:33.125
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 16:47:33.379
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 16:47:33.507
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 17:00:02.336
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NWVRWMwo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 17:00:02.336
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NWVRWMwo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 17:00:02.336
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 17:00:02.336
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NWVRWMwo => OK
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2022-04-19 17:00:07.018
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=19495
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:09.726
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:10.957
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:12.291
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:13.393
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:14.542
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:15.971
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:16.919
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1/architecturereview/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:17.937
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1/common/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:19.659
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1/product, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:21.400
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:22.766
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:23.244
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:25.188
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0/architecturereview/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:26.506
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0/common/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:28.169
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0/product, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:29.488
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/emf-compare, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:30.516
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/mylyn-mft, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:32.067
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:33.179
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:33.894
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:34.869
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.4.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:36.291
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.4.1/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:37.516
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.5.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:38.261
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.5.1/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:38.858
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.5.2/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:39.936
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-xpand, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:41.468
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-xpand/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:42.194
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-xpand, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:43.065
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-xpand/2.2.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:46.947
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:48.435
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:48.844
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:50.995
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:51.609
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:52.323
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:52.418
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/nightly/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:52.562
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/profiles/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2022-04-19 17:00:52.632
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2022-04-19 17:00:52.632
+!MESSAGE Error in file:/Applications/SpringToolSuite4.app/Contents/Eclipse/p2/org.eclipse.equinox.p2.repository/cache/-663315474 at line 7082, column 22: Duplicate singleton element in element "repository": <references size="2">
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:53.495
+!MESSAGE Using unsafe http transport to retrieve http://marketplace.yatta.de/oomph-redirect/composite/autoupdate/client/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:00:54.292
+!MESSAGE Using unsafe http transport to retrieve http://marketplace.yatta.de/oomph-redirect/drops/release/1.18.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:18.149
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:18.988
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:20.082
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:20.209
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/nightly/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:20.277
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/profiles/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:20.541
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:20.806
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:20.934
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:24.479
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:25.404
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:25.726
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:27.042
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:27.926
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:28.252
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:29.703
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1/architecturereview/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:31.773
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1/common/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:33.489
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1/product, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:35.269
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:36.972
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:37.485
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:38.968
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0/architecturereview/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:40.372
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0/common/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:41.991
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0/product, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:43.629
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/emf-compare, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:46.190
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/mylyn-mft, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:47.828
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:49.161
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:49.775
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:51.238
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.4.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:52.476
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.4.1/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:53.995
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.5.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:55.119
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.5.1/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:56.364
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.5.2/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:58.272
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-xpand, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:01:59.499
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-xpand/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:02:01.136
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-xpand, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 17:02:02.031
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-xpand/2.2.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-04-19 17:02:23.166
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.yattasolutions.org.eclipse.emf.compare.match,1.3.3.v20170619-0737.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-04-19 17:02:23.167
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.yattasolutions.org.eclipse.emf.compare,1.3.3.v20170619-0737.
+!SESSION 2022-04-19 17:02:34.546 -----------------------------------------------
+eclipse.buildId=4.14.0.202203131612
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rabin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -data file:/Users/rabin/Documents/workspace-spring-tool-suite-4-4.14.0.RELEASE/ -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rabin/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-04-19 17:02:37.262
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-19 17:02:37.262
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@656672fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@75df4b1d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-19 17:02:37.262
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@43120a77,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@430db481,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 2 2022-04-19 17:02:50.672
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-19 17:03:54.512
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-19 17:03:54.514
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-19 17:04:56.273
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-19 17:04:56.274
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-19 17:05:01.854
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-19 17:05:01.854
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:53:01.610
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/wildwebdeveloper/releases/latest/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:53:02.241
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/wildwebdeveloper/releases/latest/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.help.base 2 0 2022-04-19 19:54:45.212
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.server.ui.doc.user_1.1.600.v201901310132 [484]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:33.412
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:33.454
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/nightly/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:37.915
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:38.833
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:39.370
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1/architecturereview/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:39.982
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1/common/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:40.781
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.26.1/product, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:41.803
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:42.477
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0/architecturereview/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:42.952
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0/common/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:44.160
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/1.27.0/product, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:45.079
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/emf-compare, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:46.042
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/mylyn-mft, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:47.130
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:47.760
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.4.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:48.145
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.4.1/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:48.537
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.5.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:49.086
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.5.1/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:49.462
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-uml2/5.5.2/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:50.318
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-xpand, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:50.724
+!MESSAGE Using unsafe http transport to retrieve http://update.uml-lab.com/umllab-patches-xpand/2.2.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:51.827
+!MESSAGE Using unsafe http transport to retrieve http://marketplace.yatta.de/oomph-redirect/composite/autoupdate/client/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:52.175
+!MESSAGE Using unsafe http transport to retrieve http://marketplace.yatta.de/oomph-redirect/drops/release/1.18.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:52.419
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/profiles/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2022-04-19 19:55:52.470
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2022-04-19 19:55:52.470
+!MESSAGE Error in file:/Applications/SpringToolSuite4.app/Contents/Eclipse/p2/org.eclipse.equinox.p2.repository/cache/-663315474 at line 7082, column 22: Duplicate singleton element in element "repository": <references size="2">
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:52.754
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:53.013
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 19:55:53.135
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-04-19 19:55:53.552
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.objectaid.com/update/current.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:709)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-04-19 19:55:53.553
+!MESSAGE No repository found at http://www.objectaid.com/update/current.
+!SESSION 2022-04-19 19:58:28.346 -----------------------------------------------
+eclipse.buildId=4.14.0.202203131612
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rabin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/rabin/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-04-19 19:58:30.616
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-19 19:58:30.616
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@67216c33,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ec77cab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-19 19:58:30.616
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c7a1db6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17c72ffa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 2 2022-04-19 19:58:36.420
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:23.362
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:23.362
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@291b32f8[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=562)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:23.363
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:23.372
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.537
+!MESSAGE Boot LS startup time from start to initialized: 1170ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.585
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GlnVjkPBisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.586
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.587
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.588
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.588
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GlnVjkPB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.588
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.589
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.590
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB Project0 false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.590
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.590
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.590
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB Array false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.590
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.590
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.590
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB Collections false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.590
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.592
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.592
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB CollectionsList false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.592
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.592
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.592
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB DynamicPolymorphism false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.592
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.593
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.593
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB Exception false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.593
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.593
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.593
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB HelloAbstract false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.593
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.594
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.594
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB HelloPrimitives false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.594
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.594
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.594
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB HelloTesting false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.594
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.594
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.594
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB HelloWorld false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.595
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.595
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.595
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB Inheritance false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.595
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.595
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.595
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB Interface false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.595
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.596
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.596
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB Logging false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.596
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.596
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.596
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB P0_Base false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.596
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.596
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.597
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB Polymorphism false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.597
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.597
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.597
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB PracticeClass false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.597
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.597
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.597
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB RevatureWork false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.597
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.597
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.597
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB String false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.597
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.598
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.598
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB Threads false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.598
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.598
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.598
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB Throwable false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.598
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.598
+!MESSAGE classpath=27 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.598
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB bank_app false 27
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.598
+!MESSAGE executing callback sts4.classpath.GlnVjkPB 21 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:00:24.820
+!MESSAGE executing callback sts4.classpath.GlnVjkPB SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 20:06:35.788
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 20:06:35.870
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/marketplace/nightly/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 20:06:40.375
+!MESSAGE Using unsafe http transport to retrieve http://marketplace.yatta.de/oomph-redirect/composite/autoupdate/client/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 20:06:40.820
+!MESSAGE Using unsafe http transport to retrieve http://marketplace.yatta.de/oomph-redirect/drops/release/1.18.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 20:06:41.123
+!MESSAGE Using unsafe http transport to retrieve http://cdn.yatta.de/update/profiles/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2022-04-19 20:06:41.191
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2022-04-19 20:06:41.191
+!MESSAGE Error in file:/Applications/SpringToolSuite4.app/Contents/Eclipse/p2/org.eclipse.equinox.p2.repository/cache/-663315474 at line 7082, column 22: Duplicate singleton element in element "repository": <references size="2">
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 20:06:41.355
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 20:06:41.667
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-19 20:06:41.804
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-04-19 20:06:42.234
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.objectaid.com/update/current.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:709)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-04-19 20:06:42.234
+!MESSAGE No repository found at http://www.objectaid.com/update/current.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-04-19 20:07:20.005
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://www.objectaid.com/update/current.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:670)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-04-19 20:07:20.005
+!MESSAGE No repository found at http://www.objectaid.com/update/current.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:47:52.412
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:47:52.413
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:47:52.413
+!MESSAGE buffering callback sts4.classpath.GlnVjkPB Project0 false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:47:52.413
+!MESSAGE executing callback sts4.classpath.GlnVjkPB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-19 20:47:52.417
+!MESSAGE executing callback sts4.classpath.GlnVjkPB SUCCESS [done]
